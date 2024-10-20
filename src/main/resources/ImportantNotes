@@ -1,0 +1,53 @@
+
+//String Manipulations:
+
+toLowerCase:harfleri kucultmeyi saglar
+toUpperCase:harfleri buyultmeyi saglar
+length:karakter sayisini yani uzunlugunu verir
+equals:esit mi diye kontrol eder (peki == farki nedir =='hem adrese hem degere bakar fakat equals methodu sadece degere bakar)
+equalsIgnoreCase:buyuk kucuk harf farketmeksizin esit mi diye kontrol eder
+indexOf:girilen karakterin ilk indexini dondurur
+lastIndexOf:girilen karakterin son indexini dondurur
+charAt:girilen indexteki karakteri dondurur
+trim:bastaki ve sondaki bosluklari siler
+split:icine girilen degerden boler sag ve sol olmak uzere secim yaptırır(0 sol/1 sag)
+replace:icindeki datayi degistirmeyi saglar
+replaceAll:icindeki datyi gruplar halinde(regex) degistirmeyi saglar
+concat:birlestirme islemi yapar
+subString:ilk girilen indexten ikinci indexe kadar(ikinci index dahil degildir) olan degeri bize dondurur
+valueOf:String'i baska dataya baska datalari String'e cevirmeyi saglar.
+contains:icerme durumunu kontrol eder
+endsWith:ne ile bittigini kontrol eder
+startsWith:ne ile basladigini kontrol eder
+isBlank:hem bos mu diye kontrol eder bos degilse sadece bosluk karakter var mi diye kontrol eder
+isEmpty:bos mu diye kontrol eder
+
+
+/*
+        Meshur Regex'ler (Regular Expression):
+Bir grup data'yi almak icin kullanilir
+
+    1) Tum rakamlar ==> [0-9]
+    2) Tum kucuk harfler ==> [a-z]
+    3) Tum buyuk harfler ==> [A-Z]
+    4) Tum kucuk harfler ve buyuk harfler ==> [a-zA-Z]
+    5) Tum harfler ve rakamlar ==> [a-zA-Z0-9]
+    6) Tum noktalama isaretleri ==> \\p{Punct}
+    7) Tum sesli harfler ==> [aeiouAEIOU]
+       Tum a, x, y harfleri ==> [axy]
+ a'dan g'ye tum kucuk ve buyuk harfler: [A-Ga-g]
+    8) Tum kucuk harfler haric: ==> [^a-z]
+    9) Tum harfler haric ==> [^a-zA-Z]
+
+Bu kisim da [] kullanilmaz. Buyuk harfler olumsuz anlama gelir
+    Sadece space karakteri : \\s
+    Space karakteri haric  : \\S
+    Sadece rakamlar        : \\d  (digit ten geliyor)
+    Rakamlar haric         : \\D
+*/
+
+//------------------------------------------------------------------------------------------------------
+
+
+
+
